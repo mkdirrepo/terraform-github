@@ -14,5 +14,12 @@ locals {
         name = "terraform-github"
         visibility = "public"
     }
+      "terraform-aws-networking" = {
+        description = "repo for terraform module networking"
+        gitignore_template = "Terraform"
+        license_template = "MIT"
+        name = "terraform-aws-networking"
+        visibility = "public"
+    }
   }
 }
