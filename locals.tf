@@ -21,5 +21,12 @@ locals {
         name = "terraform-aws-networking"
         visibility = "public"
     }
+      "aws-networking" = {
+        description = "aws tfe automation networking"
+        gitignore_template = "Terraform"
+        license_template = "MIT"
+        name = "aws-networking"
+        visibility = "public"
+    }
   }
 }
